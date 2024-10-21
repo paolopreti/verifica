@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿//PAOLO PRETI 4H
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -43,7 +44,7 @@ namespace WpfAppVerifica_Git
             Libro l = new Libro(tbxAutore.Text, tbxTitolo.Text, tbxAnno.Text, tbxEditore.Text, int.Parse(tbxPagine.Text));
             l.Add(l);
         }
-
+        
 
     }
 }
